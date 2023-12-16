@@ -2,9 +2,9 @@ import Article from '../components/Article';
 
 interface IBlogContainerProps {}
 
-const BlogContainer: React.FC<IBlogContainerProps> = (props) => {
+const BlogContainer: React.FC<IBlogContainerProps> = () => {
   return (
-    <div className="py-8 px-8 md:px-12 lg:px-24 pb-40">
+    <div className="py-8 px-8 md:px-12 lg:px-24 pb-40" id="blog">
       <h1 className="text-[transparent] bg-gradient-to-r from-[#AE67FA] from-[1.84%] to-[#F49867] to-[102.67%] bg-clip-text text-[62px] font-[800] md:mr-20 tracking-[-0.04rem]">
         A lot is happening,
         <br /> We are blogging about it.

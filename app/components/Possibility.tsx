@@ -2,7 +2,7 @@ interface IPossibilityProps {}
 
 const Possibility: React.FC<IPossibilityProps> = (props) => {
   return (
-    <div className="py-8 px-8 md:px-12 lg:px-24">
+    <div className="py-8 px-8 md:px-12 lg:px-24" id="possibility">
       <div className="flex flex-col-reverse md:flex-row gap-10">
         <div className="lg:w-[50%]">
           <img

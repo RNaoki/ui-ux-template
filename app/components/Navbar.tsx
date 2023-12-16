@@ -10,7 +10,6 @@ const NavBarMenu: React.FC = () => {
       <NavLink text="Home" href="#home" />
       <NavLink text="What is GPT?" href="#whpt3" />
       <NavLink text="Open AI" href="#possibility" />
-      <NavLink text="Case Studies" href="#features" />
       <NavLink text="Library" href="#blog" />
     </>
   );

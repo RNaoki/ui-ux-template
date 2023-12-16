@@ -4,7 +4,7 @@ interface IFeatureContainerProps {}
 
 const FeatureContainer: React.FC<IFeatureContainerProps> = (props) => {
   return (
-    <div className="flex flex-col lg:flex-row py-8 px-8 md:px-12 lg:px-24 gap-10">
+    <div className="flex flex-col lg:flex-row py-8 px-8 md:px-12 lg:px-24 gap-10 pt-40">
       <div className="flex gap-10 flex-col">
         <h1 className="text-[transparent] bg-gradient-to-r from-[#AE67FA] from-[1.84%] to-[#F49867] to-[102.67%] bg-clip-text text-[34px] font-[800] md:mr-20 tracking-[-0.04rem] lg:w-[30vw]">
           The Future is Now and You Just Need To Realize It. Step into Future
